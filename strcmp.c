@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+char str1[50];
+char str2[50];
+int compare;
+printf("enter the first string :");
+scanf("%s",str1);
+printf("enter the second string :");
+scanf("%s",str2);
+compare=strcmp(str1,str2);
+if(compare==0)
+{
+printf("strings are same");
+
+}
+else
+{
+printf("strings are not same");
+
+}
+return 0;
+}
