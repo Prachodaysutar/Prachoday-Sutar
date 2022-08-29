@@ -6,8 +6,15 @@
     for(i=0;i<=num-1;i++){
         rev=num%10;
         num=num/10;
+ 
 
  printf("palidrome is :%d\n",rev);
     }
+if(num==rev){
+printf("palidrome is :%d\n",rev);
+}
+else{
+printf("not palidrome is :%d\n",rev);
+}
  return 0;
  }
